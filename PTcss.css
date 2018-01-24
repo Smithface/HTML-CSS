@@ -1,0 +1,48 @@
+.container {
+  display: flex;
+  border: 2px solid black;
+  flex-direction: column;
+  height: 100vh;
+}
+
+.container__box {
+  background-color: rgb(71, 4, 71);
+  height: 5%;
+}
+
+.container__boxContainer {
+  display: flex;
+}
+
+.container__h1 {
+  text-align: center;
+  font-size: 72px;
+}
+
+.container__box--top {
+  display: flex;
+  justify-content: space-between;
+  padding: 1vw;
+  font-size: 36px;
+  background-color: rgb(86, 88, 109);
+}
+
+.container__box--lightGrey {
+  background-color: rgb(241, 241, 241);
+  flex: 2;
+  padding-left: 1vw;
+  font-size: 24px;
+}
+
+.container__box--lightBlue {
+  background-color: lightblue;
+  padding-left: .2vw;
+  padding-top: 2px;
+  padding-bottom: 2px;
+  font-size: 36px;
+}
+
+.container__box--footer {
+  text-align: center;
+  background-color: rgb(95, 94, 94);
+}
